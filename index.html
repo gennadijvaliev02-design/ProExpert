@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LI-AUTO STUDIO — Оклейка и дооснащение Lixiang & Premium в Москве</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Характерная типографика: Unbounded (брутальный авто-люкс) + Manrope (чистая геометрия) -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Unbounded:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        heading: ['Unbounded', 'sans-serif'],
+                        sans: ['Manrope', 'sans-serif'],
+                    },
+                    colors: {
+                        asphalt: '#090a0d',
+                        surface: '#111318',
+                        surfaceLight: '#181b22',
+                        borderMuted: '#232733',
+                        steel: '#8e95a5',
+                        brandWhite: '#f5f7fa',
+                        accentBlue: '#2563eb'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #090a0d;
+            color: #f5f7fa;
+            font-family: 'Manrope', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .editorial-border {
+            border-color: #232733;
+        }
+        /* Тонкие сетки в стиле автомобильных чертежей */
+        .bg-grid {
+            background-size: 60px 60px;
+            background-image: 
+                linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+        }
+    </style>
+</head>
+<body class="bg-asphalt selection:bg-white selection:text-black bg-grid">
+
+    <!-- Топбар: строгий, как в премиальных конфигураторах Porsche / Lixiang -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-asphalt/90 backdrop-blur-md border-b editorial-border">
+        <div class="max-w-[1400px] mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-6">
+                <a href="#" class="flex items-baseline space-x-2">
+                    <span class="font-heading font-black text-xl tracking-tight text-brandWhite">LI-AUTO</span>
+                    <span class="text-[10px] tracking-[0.25em] text-steel uppercase font-mono">STUDIO // MOSCOW</span>
+                </a>
+                <div class="hidden lg:block h-4 w-px bg-borderMuted"></div>
+                <div class="hidden lg:flex items-center space-x-2 text-xs text-steel font-mono">
+                    <span>SPECS: PPF • AMBIENT • PDR</span>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex items-center space-x-8 text-xs font-semibold tracking-wider uppercase text-steel">
+                <a href="#specialization" class="hover:text-white transition">Специфика Li Auto</a>
+                <a href="#gallery" class="hover:text-white transition">Кейсы</a>
+                <a href="#standards" class="hover:text-white transition">Стандарты оклейки</a>
+                <a href="#configurator" class="hover:text-white transition">Расчёт</a>
+            </nav>
+
+            <div class="flex items-center space-x-4">
+                <a href="https://www.instagram.com/li_autocom/" target="_blank" class="text-xs font-mono text-steel hover:text-white px-3 py-1.5 border editorial-border rounded hover:border-white/30 transition">
+                    @li_autocom
+                </a>
+                <a href="https://wa.me/message/UVCKGAMOAPGXG1" target="_blank" class="bg-brandWhite hover:bg-gray-200 text-black text-xs font-bold tracking-wider uppercase px-5 py-2.5 rounded transition">
+                    WhatsApp Консультация
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главный экран: Асимметричный журнальный постер с реальным автомобилем -->
+    <section class="pt-32 pb-20 border-b editorial-border">
+        <div class="max-w-[1400px] mx-auto px-6">
+            
+            <!-- Индексный заголовок в стиле арт-дирекции -->
+            <div class="flex flex-col lg:flex-row lg:items-end justify-between mb-12 gap-8">
+                <div class="max-w-4xl">
+                    <div class="text-xs font-mono uppercase tracking-[0.3em] text-steel mb-4">
+                        [ 01 // ПРЕМИАЛЬНАЯ ЗАЩИТА КУЗОВА И ИНТЕРЬЕРА ]
+                    </div>
+                    <h1 class="font-heading text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-brandWhite uppercase leading-[1.05]">
+                        Бронирование <br>
+                        и тюнинг Lixiang <br>
+                        <span class="text-steel font-normal">без видимых швов.</span>
+                    </h1>
+                </div>
+
+                <div class="lg:max-w-xs text-left pb-2">
+                    <p class="text-sm text-steel leading-relaxed mb-6">
+                        Работаем с полиуретаном премиального сегмента. Точная подгонка лекал, правильный разбор электроники по мануалам и сохранение заводской гарантии.
+                    </p>
+                    <div class="flex items-center space-x-6 text-xs font-mono text-steel border-t editorial-border pt-4">
+                        <div>
+                            <span class="block text-white font-bold text-lg font-heading">7-10 ЛЕТ</span>
+                            Срок службы PPF
+                        </div>
+                        <div class="w-px h-8 bg-borderMuted"></div>
+                        <div>
+                            <span class="block text-white font-bold text-lg font-heading">L7/L8/L9</span>
+                            Опыт с гибридами
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Реальная фото-доминанта (Lixiang L7 в матовом синем PPF) -->
+            <div class="relative w-full rounded-none border editorial-border overflow-hidden bg-surface group">
+                <div class="grid grid-cols-1 lg:grid-cols-12 min-h-[520px]">
+                    
+                    <!-- Главный снимок -->
+                    <div class="lg:col-span-8 relative overflow-hidden bg-black flex items-center justify-center">
+                        <img src="images/hero_lixiang_hd.jpg" alt="Оклейка Lixiang L7 в матовый синий" class="w-full h-full object-cover object-center group-hover:scale-[1.02] transition duration-700 ease-out">
+                        <div class="absolute top-4 left-4 font-mono text-[11px] bg-asphalt/80 backdrop-blur px-3 py-1 border editorial-border uppercase tracking-widest text-steel">
+                            ФЛАГМАНСКИЙ ПРОЕКТ: LIXIANG L7/L9 В МАТОВОМ САТИНЕ
+                        </div>
+                    </div>
+
+                    <!-- Паспорт проекта -->
+                    <div class="lg:col-span-4 p-8 sm:p-10 flex flex-col justify-between border-t lg:border-t-0 lg:border-l editorial-border bg-surface">
+                        <div>
+                            <div class="text-[11px] font-mono text-steel uppercase tracking-widest mb-6">Паспорт выполненных работ:</div>
+                            
+                            <h3 class="font-heading text-xl font-bold text-white mb-4">Lixiang L7 Satin Armor</h3>
+                            
+                            <ul class="space-y-4 text-xs font-mono text-steel">
+                                <li class="flex items-start justify-between border-b editorial-border pb-2.5">
+                                    <span>МАТЕРИАЛ:</span>
+                                    <span class="text-white text-right font-sans font-medium">Полиуретан 210 мкм (Top Coat)</span>
+                                </li>
+                                <li class="flex items-start justify-between border-b editorial-border pb-2.5">
+                                    <span>ЗОНА:</span>
+                                    <span class="text-white text-right font-sans font-medium">Полный кузов + крыша + оптика</span>
+                                </li>
+                                <li class="flex items-start justify-between border-b editorial-border pb-2.5">
+                                    <span>ТЕХНОЛОГИЯ:</span>
+                                    <span class="text-white text-right font-sans font-medium">Глубокий подворот без стыков</span>
+                                </li>
+                                <li class="flex items-start justify-between border-b editorial-border pb-2.5">
+                                    <span>СРОК ВЫПОЛНЕНИЯ:</span>
+                                    <span class="text-white text-right font-sans font-medium">4 рабочих дня</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="pt-8">
+                            <a href="#configurator" class="w-full block text-center py-4 bg-brandWhite hover:bg-gray-200 text-black text-xs font-bold uppercase tracking-widest transition">
+                                Рассчитать такой проект
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Секция: Почему именно Lixiang & сложные кузова -->
+    <section id="specialization" class="py-24 border-b editorial-border bg-surface/50">
+        <div class="max-w-[1400px] mx-auto px-6">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mb-16">
+                <div class="lg:col-span-5">
+                    <span class="text-xs font-mono text-steel uppercase tracking-[0.25em] block mb-3">[ СПЕЦИАЛИЗАЦИЯ ]</span>
+                    <h2 class="font-heading text-3xl sm:text-4xl font-bold uppercase text-white leading-tight">
+                        Автомобили нового поколения требуют иного подхода.
+                    </h2>
+                </div>
+                <div class="lg:col-span-7 text-steel text-sm sm:text-base leading-relaxed space-y-4">
+                    <p>
+                        Современные премиальные китайские электрокары (Lixiang, Zeekr, Avatr, Yangwang) имеют сложную сенсорную архитектуру: лидары на крыше, скрытые датчики, радары автопилота в бамперах и сложную внутреннюю электросеть.
+                    </p>
+                    <p class="text-white font-medium">
+                        В обычной оклейке вам могут повредить герметичность проводки или нарушить калибровку лидара. В LI-AUTO каждая операция выполняется с учётом специфики платформы.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Архитектура качества: 3 колонки без округлых пластиковых карточек -->
+            <div class="grid grid-cols-1 md:grid-cols-3 border-t border-l editorial-border">
+                
+                <div class="p-8 sm:p-10 border-r border-b editorial-border bg-asphalt">
+                    <div class="font-mono text-xs text-steel mb-8">01 / ТОЧНЫЕ ЛЕКАЛА</div>
+                    <h3 class="font-heading text-lg font-bold text-white uppercase mb-4">Швы убраны под уплотнители</h3>
+                    <p class="text-xs text-steel leading-relaxed font-sans">
+                        Мы не режем плёнку по лаку на автомобиле. Все края плёнки имеют технологический запас и подворачиваются под заводские элементы, исключая отклеивание на мойках.
+                    </p>
+                </div>
+
+                <div class="p-8 sm:p-10 border-r border-b editorial-border bg-asphalt">
+                    <div class="font-mono text-xs text-steel mb-8">02 / ЭЛЕКТРОНИКА & СЕНСОРЫ</div>
+                    <h3 class="font-heading text-lg font-bold text-white uppercase mb-4">Безопасно для лидаров</h3>
+                    <p class="text-xs text-steel leading-relaxed font-sans">
+                        Зоны лидаров и камер кругового обзора оклеиваются специальной оптически прозрачной полиуретановой плёнкой без искажения лучей лазера и спектра камер.
+                    </p>
+                </div>
+
+                <div class="p-8 sm:p-10 border-r border-b editorial-border bg-asphalt">
+                    <div class="font-mono text-xs text-steel mb-8">03 / ХИМИЯ И МАТЕРИАЛЫ</div>
+                    <h3 class="font-heading text-lg font-bold text-white uppercase mb-4">Линейка Alumax Pro</h3>
+                    <p class="text-xs text-steel leading-relaxed font-sans">
+                        Перед оклейкой кузов проходит трехфазную глубокую деконтаминацию: удаление металлической пыли, битума и кальциевых пятен оригинальной автохимией без риска для лака.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Реальная фотогалерея: крупная, выразительная, с атмосферой боксов -->
+    <section id="gallery" class="py-24 border-b editorial-border">
+        <div class="max-w-[1400px] mx-auto px-6">
+            
+            <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-16 gap-4">
+                <div>
+                    <span class="text-xs font-mono text-steel uppercase tracking-[0.25em] block mb-2">[ ПОРТФОЛИО СТУДИИ ]</span>
+                    <h2 class="font-heading text-3xl sm:text-4xl font-bold uppercase text-white">Реальные работы из боксов</h2>
+                </div>
+                <div class="font-mono text-xs text-steel">
+                    ИЗ ОФИЦИАЛЬНОГО ИНСТАГРАМА: <a href="https://www.instagram.com/li_autocom/" target="_blank" class="text-white hover:underline">@LI_AUTOCOM</a>
+                </div>
+            </div>
+
+            <!-- Асимметричная галерея работ -->
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+                
+                <!-- Кадр 1: Подсветка салона L7 (крупный акцент) -->
+                <div class="md:col-span-7 border editorial-border bg-surface overflow-hidden group">
+                    <div class="relative h-[480px] overflow-hidden bg-black">
+                        <img src="images/real_work_4.png" alt="Ambient Light салон Lixiang L7" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+                        <div class="absolute bottom-6 left-6 right-6">
+                            <span class="font-mono text-[10px] uppercase tracking-widest text-steel block mb-1">ИНТЕРЬЕР • ДООСНАЩЕНИЕ</span>
+                            <h4 class="font-heading text-xl font-bold text-white uppercase">Lixiang L7: Контурная подсветка Ambient Light</h4>
+                            <p class="text-xs text-steel mt-1 font-sans">Замена штатного тусклого света на премиальную управляемую контурную систему с регулировкой оттенков.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Кадр 2: Процессы и химия Alumax Pro -->
+                <div class="md:col-span-5 border editorial-border bg-surface flex flex-col justify-between p-8">
+                    <div>
+                        <div class="relative h-64 overflow-hidden border editorial-border mb-6 bg-black">
+                            <img src="images/real_work_3.png" alt="Alumax Pro химия для детейлинга" class="w-full h-full object-cover">
+                        </div>
+                        <span class="font-mono text-[10px] uppercase tracking-widest text-steel block mb-1">ТЕХНОЛОГИЧЕСКИЙ ПРОЦЕСС</span>
+                        <h4 class="font-heading text-lg font-bold text-white uppercase mb-2">Оригинальные составы Alumax Pro</h4>
+                        <p class="text-xs text-steel font-sans leading-relaxed">
+                            Мы открыто показываем, какими составами работаем. Никакой безымянной химии — только проверенные компоненты для сохранения хрома, глянца и матового полиуретана.
+                        </p>
+                    </div>
+
+                    <div class="pt-6 border-t editorial-border mt-6 flex items-center justify-between text-xs font-mono text-steel">
+                        <span>БЕЗОПАСНО ДЛЯ КОЖИ И ЛКП</span>
+                        <span class="text-white font-bold">100% PRO</span>
+                    </div>
+                </div>
+
+                <!-- Кадр 3: Химчистка и консервация интерьера -->
+                <div class="md:col-span-5 border editorial-border bg-surface p-8 flex flex-col justify-between">
+                    <div>
+                        <div class="relative h-64 overflow-hidden border editorial-border mb-6 bg-black">
+                            <img src="images/real_work_1.png" alt="Детейлинг химчистка кожи" class="w-full h-full object-cover">
+                        </div>
+                        <span class="font-mono text-[10px] uppercase tracking-widest text-steel block mb-1">РЕСТАВРАЦИЯ & ХИМЧИСТКА</span>
+                        <h4 class="font-heading text-lg font-bold text-white uppercase mb-2">Деликатная очистка кожи Наппа</h4>
+                        <p class="text-xs text-steel font-sans leading-relaxed">
+                            Светлые салоны Lixiang и Zeekr склонны к окрашиванию от джинсов и пересыханию. Выполняем паровую очистку и глубокую пропитку защитными кремами с эффектом «нового матового покрытия».
+                        </p>
+                    </div>
+                    
+                    <div class="pt-6 border-t editorial-border mt-6 flex items-center justify-between text-xs font-mono text-steel">
+                        <span>БЕЗ ЖИРНОГО БЛЕСКА</span>
+                        <span class="text-white font-bold">ОРИГИНАЛЬНЫЙ МАТ</span>
+                    </div>
+                </div>
+
+                <!-- Кадр 4: Текстовый манифест мастеров студии -->
+                <div class="md:col-span-7 border editorial-border bg-surface p-8 sm:p-12 flex flex-col justify-between">
+                    <div>
+                        <span class="font-mono text-xs text-steel uppercase tracking-[0.25em] block mb-4">[ МАНИФЕСТ КАЧЕСТВА ]</span>
+                        <h3 class="font-heading text-2xl sm:text-3xl font-bold uppercase text-white mb-6 leading-snug">
+                            «Качество видно не тогда, когда машина только выехала из бокса. А через 2 года эксплуатации».
+                        </h3>
+                        <p class="text-steel text-sm leading-relaxed mb-6 font-sans">
+                            Мы не обещаем «оклейку за 1 день по низу рынка». Оклейка премиум-кузова требует стерильной чистоты в боксе, выдержки температуры 22-24°C и правильной сушки каждого края перед выдачей клиенту.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-3 gap-4 border-t editorial-border pt-6 font-mono text-xs text-steel">
+                        <div>
+                            <span class="text-white block font-bold text-sm">ФОТООТЧЕТ</span>
+                            Каждого этапа
+                        </div>
+                        <div>
+                            <span class="text-white block font-bold text-sm">ДОГОВОР</span>
+                            И гарантийный талон
+                        </div>
+                        <div>
+                            <span class="text-white block font-bold text-sm">МОСКВА</span>
+                            Удобный заезд
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Строгий конфигуратор стоимости в стиле инженерного бланка заказ-наряда -->
+    <section id="configurator" class="py-24 border-b editorial-border bg-asphalt">
+        <div class="max-w-[1100px] mx-auto px-6">
+            
+            <div class="mb-12 text-center md:text-left">
+                <span class="text-xs font-mono text-steel uppercase tracking-[0.25em] block mb-2">[ ОНЛАЙН СПЕЦИФИКАЦИЯ ]</span>
+                <h2 class="font-heading text-3xl sm:text-4xl font-bold uppercase text-white">Расчёт бюджета проекта</h2>
+                <p class="text-steel text-xs sm:text-sm mt-2 font-mono">ВЫБЕРИТЕ ПЛАТФОРМУ АВТОМОБИЛЯ И НЕОБХОДИМЫЙ КОМПЛЕКС</p>
+            </div>
+
+            <div class="border editorial-border bg-surface p-6 sm:p-10">
+                
+                <!-- Шаг 1: Выбор автомобиля -->
+                <div class="mb-10">
+                    <div class="text-xs font-mono text-steel uppercase tracking-widest mb-4">1. КЛАСС / МОДЕЛЬ АВТОМОБИЛЯ:</div>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <button onclick="setVehicleClass(1, this)" class="v-btn active p-4 border border-white bg-white text-black font-heading text-xs font-bold uppercase tracking-wider text-left transition">
+                            <span class="block text-[10px] font-mono text-gray-500 mb-1">СЕДАН / КУПЕ</span>
+                            Zeekr 001 / ET7 / Классика
+                        </button>
+                        <button onclick="setVehicleClass(1.2, this)" class="v-btn p-4 border editorial-border bg-asphalt text-steel hover:text-white font-heading text-xs font-bold uppercase tracking-wider text-left transition">
+                            <span class="block text-[10px] font-mono text-steel/60 mb-1">КРОССОВЕР</span>
+                            Lixiang L7 / L8 / Cayenne
+                        </button>
+                        <button onclick="setVehicleClass(1.4, this)" class="v-btn p-4 border editorial-border bg-asphalt text-steel hover:text-white font-heading text-xs font-bold uppercase tracking-wider text-left transition">
+                            <span class="block text-[10px] font-mono text-steel/60 mb-1">ФЛАГМАН / МИНИВЭН</span>
+                            Lixiang L9 / Zeekr 009
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Шаг 2: Выбор процедур -->
+                <div class="mb-10">
+                    <div class="text-xs font-mono text-steel uppercase tracking-widest mb-4">2. ПАКЕТ ТЕХНИЧЕСКИХ РАБОТ:</div>
+                    <div class="space-y-3 font-mono text-xs">
+                        
+                        <label class="flex items-center justify-between p-4 border editorial-border bg-asphalt hover:border-white/40 cursor-pointer transition">
+                            <div class="flex items-center space-x-4">
+                                <input type="checkbox" checked onchange="calcBudget()" value="65000" class="work-item w-4 h-4 accent-white rounded-none">
+                                <div>
+                                    <span class="text-white font-bold block text-sm font-sans">Оклейка зон повышенного риска (PPF 210 мкм)</span>
+                                    <span class="text-steel text-[11px]">Бампер, капот целиком, крылья, зеркала, стойки, полоса на крышу</span>
+                                </div>
+                            </div>
+                            <span class="text-white font-bold font-heading">+ 65 000 ₽</span>
+                        </label>
+
+                        <label class="flex items-center justify-between p-4 border editorial-border bg-asphalt hover:border-white/40 cursor-pointer transition">
+                            <div class="flex items-center space-x-4">
+                                <input type="checkbox" onchange="calcBudget()" value="145000" class="work-item w-4 h-4 accent-white rounded-none">
+                                <div>
+                                    <span class="text-white font-bold block text-sm font-sans">Полное бронирование кузова в матовый сатин PPF</span>
+                                    <span class="text-steel text-[11px]">Полная смена фактуры кузова в матовый эффект с сохранением заводского цвета</span>
+                                </div>
+                            </div>
+                            <span class="text-white font-bold font-heading">+ 145 000 ₽</span>
+                        </label>
+
+                        <label class="flex items-center justify-between p-4 border editorial-border bg-asphalt hover:border-white/40 cursor-pointer transition">
+                            <div class="flex items-center space-x-4">
+                                <input type="checkbox" onchange="calcBudget()" value="35000" class="work-item w-4 h-4 accent-white rounded-none">
+                                <div>
+                                    <span class="text-white font-bold block text-sm font-sans">Восстановительная полировка + 2 слоя керамики 9H</span>
+                                    <span class="text-steel text-[11px]">Устранение мелкой риски, зеркальный блеск и глубокий гидрофоб</span>
+                                </div>
+                            </div>
+                            <span class="text-white font-bold font-heading">+ 35 000 ₽</span>
+                        </label>
+
+                        <label class="flex items-center justify-between p-4 border editorial-border bg-asphalt hover:border-white/40 cursor-pointer transition">
+                            <div class="flex items-center space-x-4">
+                                <input type="checkbox" onchange="calcBudget()" value="25000" class="work-item w-4 h-4 accent-white rounded-none">
+                                <div>
+                                    <span class="text-white font-bold block text-sm font-sans">Контурное освещение Ambient Light для Lixiang</span>
+                                    <span class="text-steel text-[11px]">Смена штатной подсветки салона на премиум-диоды высокой яркости</span>
+                                </div>
+                            </div>
+                            <span class="text-white font-bold font-heading">+ 25 000 ₽</span>
+                        </label>
+
+                        <label class="flex items-center justify-between p-4 border editorial-border bg-asphalt hover:border-white/40 cursor-pointer transition">
+                            <div class="flex items-center space-x-4">
+                                <input type="checkbox" onchange="calcBudget()" value="20000" class="work-item w-4 h-4 accent-white rounded-none">
+                                <div>
+                                    <span class="text-white font-bold block text-sm font-sans">Детейлинг-химчистка с консервацией кожи Alumax</span>
+                                    <span class="text-steel text-[11px]">Бережное озонирование, очистка сидений и защита от растрескивания</span>
+                                </div>
+                            </div>
+                            <span class="text-white font-bold font-heading">+ 20 000 ₽</span>
+                        </label>
+
+                    </div>
+                </div>
+
+                <!-- Итог и фиксация в WhatsApp -->
+                <div class="border-t editorial-border pt-8 flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div>
+                        <span class="text-[11px] font-mono text-steel uppercase tracking-widest block">ОРИЕНТИРОВОЧНАЯ СТОИМОСТЬ ПО СПЕЦИФИКАЦИИ:</span>
+                        <div id="final-budget" class="font-heading text-4xl sm:text-5xl font-black text-white mt-1">
+                            65 000 ₽
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/message/UVCKGAMOAPGXG1" target="_blank" class="w-full md:w-auto px-8 py-4 bg-brandWhite hover:bg-gray-200 text-black font-heading text-xs font-black uppercase tracking-widest transition text-center">
+                        Согласовать время заезда в WhatsApp →
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Футер в стиле технического манифеста -->
+    <footer class="py-16 bg-asphalt border-t editorial-border text-xs font-mono text-steel">
+        <div class="max-w-[1400px] mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 pb-12 border-b editorial-border">
+                <div>
+                    <div class="font-heading text-lg font-bold text-white uppercase mb-1">LI-AUTO STUDIO MOSCOW</div>
+                    <p class="text-steel">Специализированная студия оклейки и дооснащения премиального транспорта</p>
+                </div>
+
+                <div class="flex flex-wrap items-center gap-6">
+                    <a href="https://www.instagram.com/li_autocom/" target="_blank" class="text-white hover:text-steel transition">
+                        INSTAGRAM: @LI_AUTOCOM
+                    </a>
+                    <span class="text-borderMuted">•</span>
+                    <a href="https://wa.me/message/UVCKGAMOAPGXG1" target="_blank" class="text-white hover:text-steel transition">
+                        WHATSAPP ДЛЯ ЗАПИСИ
+                    </a>
+                </div>
+            </div>
+
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px]">
+                <div>© 2026 LI-AUTO DETAILING. ВСЕ ПРАВА ЗАЩИЩЕНЫ.</div>
+                <div class="text-steel/50">КОНЦЕПТ СТУДИЙНОГО САЙТА С ИНДИВИДУАЛЬНОЙ АРТ-ДИРЕКЦИЕЙ</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Скрипт калькулятора -->
+    <script>
+        let multiplier = 1;
+
+        function setVehicleClass(m, btn) {
+            multiplier = m;
+            document.querySelectorAll('.v-btn').forEach(b => {
+                b.classList.remove('border-white', 'bg-white', 'text-black');
+                b.classList.add('editorial-border', 'bg-asphalt', 'text-steel');
+            });
+            btn.classList.add('border-white', 'bg-white', 'text-black');
+            btn.classList.remove('editorial-border', 'bg-asphalt', 'text-steel');
+            calcBudget();
+        }
+
+        function calcBudget() {
+            let base = 0;
+            document.querySelectorAll('.work-item:checked').forEach(c => {
+                base += parseInt(c.value);
+            });
+            let total = Math.round(base * multiplier);
+            document.getElementById('final-budget').innerText = total.toLocaleString('ru-RU') + ' ₽';
+        }
+    </script>
+</body>
+</html>
